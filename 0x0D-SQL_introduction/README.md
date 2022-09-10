@@ -2,6 +2,7 @@
 Description
 First project on working with SQL.
 
+
 Mandatory Tasks
 Files	Description
 0-list_databases.sql	Lists all the databases of your MySQL server
