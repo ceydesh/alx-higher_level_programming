@@ -1,3 +1,3 @@
 #!/bin/bash
-# script for sending a delete request on a server
-curl -sX "DELETE" $1
+#bash script for displaying length
+curl -sI "$1" | grep "Content-Length:" | cut -d " " -f 2
